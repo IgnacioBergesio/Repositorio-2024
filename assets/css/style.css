@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  header, footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #box-container {
+    display: flex;
+  } 
+
+  header .profile-thumbnail {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  header .unraf {
+    display: flex;
+    margin: 0 0 0 auto;
+  }
+
+  header .logo-unraf {
+    width: auto;
+    height: 100px;
+  }
+
+
+  header .profile-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin-left: 10px;
+  }
+  
+  header h3, header h4 {
+    display: flex;
+    margin: 0;
+  }
+ 
+  main h1{
+      color: crimson;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+  
+  footer .cta {
+    margin-left: auto;
+  }
